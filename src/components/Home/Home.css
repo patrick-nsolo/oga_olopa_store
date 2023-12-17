@@ -22,7 +22,6 @@
     text-align: right;
     color: #fff;
     padding:100px 100px;
-    
 }
 .btn-container{
     text-align: right;
@@ -38,6 +37,7 @@
     cursor:none;
     font-size: calc(1.325rem + .9vw);
     user-select: none;
+    margin-top: -40px;
 }
 .role-tag{
     color:#ffffff;
@@ -83,21 +83,25 @@ a{
         width:100%;
         position: absolute;
         z-index: -1;
-        
     }
     .role{
         font-size: 1rem;
-        margin-top: 20px;
+        
         text-align: center;
     }
     .role-tag{
         font-size: 1rem;
-        margin-top: 20px;
+        
     }
     .intro{
         font-size: 2rem;
     }
     .btn-container{
         margin-top:20px ;
+        text-align: center;
+    }
+    .title{
+        padding:0;
+        text-align: center;
     }
 } 

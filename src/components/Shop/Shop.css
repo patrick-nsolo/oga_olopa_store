@@ -1,0 +1,102 @@
+.my_works{
+    display: flex;
+    align-items: center;
+}
+.works{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1d1d1d;
+    margin-top: 20px;
+}
+.caret{
+    width:0;
+    height:0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top:6px solid #1d1d1d;
+    transition: 0.3s;
+}
+.caret-float{
+    animation: floatAnimation 1.5s ease-in-out infinite;
+}
+@keyframes floatAnimation{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+}
+.shop{
+    padding:50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.items{
+    width:250px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:10px 20px;
+}
+.item-img{
+    display: flex;
+    justify-content: center;
+    
+}
+.item-img img{
+    width:200px;
+}
+.item-description h2{
+    font-size: 1rem;
+    padding: 20px;
+}
+.item-three img{
+    width:120px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.price a{
+    background-color: #39FF14;
+    color: #fff;
+    padding:10px 20px;
+}
+
+
+
+
+
+
+
+.project-display{
+    padding:20px 250px;
+}
+
+.btn-links{
+    display: flex;
+    gap: 30px;
+}
+.responsive-pages{
+    margin-top: 100px;
+}
+
+@media (max-width:768px){
+    .project-display{
+        padding: 0;
+    }
+    .shop{
+        flex-direction: column;
+        
+    }
+}
+@media(min-width:768px) and (max-width:1400px){
+    .wellnest-project, .lhc-project, .aurora-project, .pfl-project, .midris-project{
+        display: flex;
+        flex-direction: column;
+    }
+}

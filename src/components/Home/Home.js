@@ -9,7 +9,7 @@ const  Home = () => {
         <img src="images/pixx-short.webp" alt=""/>
       </div>
       <div className='title'>
-        <h1 className="intro">OGA OLOPA NG</h1>
+        <h1 className="intro">OGA OLOPA</h1>
         <h2 className="role">
           <Typed strings={['Your Online Security Shop']} typeSpeed={40} backSpeed={50} loop={false}/>
         </h2>

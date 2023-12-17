@@ -86,7 +86,6 @@ a{
     }
     .role{
         font-size: 1rem;
-        
         text-align: center;
     }
     .role-tag{
@@ -103,5 +102,8 @@ a{
     .title{
         padding:0;
         text-align: center;
+        line-height: 40px;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
 } 

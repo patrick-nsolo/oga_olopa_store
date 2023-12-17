@@ -43,7 +43,6 @@
 .item-img{
     display: flex;
     justify-content: center;
-    
 }
 .item-img img{
     width:200px;
@@ -66,16 +65,9 @@
     color: #fff;
     padding:10px 20px;
 }
-
-
-
-
-
-
-
 .project-display{
     padding:20px 250px;
-    margin-top: 150px;
+    margin-top: 70px;
 }
 
 .btn-links{

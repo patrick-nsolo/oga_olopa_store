@@ -55,7 +55,7 @@
         flex-direction: column;
         gap: 0;
         top: 58px;
-        left:-100%;
+        left:-110%;
         text-align: center;
         width:100%;
         transition: left 0.7s ease-in-out;
@@ -69,7 +69,7 @@
     .nav-links li{
         margin: 0;
         list-style: none;
-        
+        padding: 12px;
     }
     .nav-links li a{
         color: #ffffff;
